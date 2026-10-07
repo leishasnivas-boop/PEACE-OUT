@@ -1,0 +1,17 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="Maze Runner"
+run/main_scene="res://SPLASH/splash_scene.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
+
+[autoload]
+
+GameState="*res://GLOBALS/game_state.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
